@@ -1,11 +1,16 @@
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 24px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #000000;
-}
+    @media screen and (min-width: 1200px) {
+            font-size: 26px;
+            line-height: 1.19;
+        }
+    }
+
 
 .logo-accent {
     color: var(--accent-color);
@@ -17,6 +22,8 @@
 
 .logo-bs {
     display: block;
+    text-align: center;
+    justify-content: center;
     margin-bottom: 20px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -25,4 +32,7 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-light-color);
+    @media screen and (min-width: 1200px) {
+            text-align: left;
+        }
 }
