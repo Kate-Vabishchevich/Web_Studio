@@ -566,6 +566,12 @@ body {
   margin-left: 10px;
 }
 
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
 .hero {
   background-color: var(--background-color);
   background-repeat: no-repeat;
