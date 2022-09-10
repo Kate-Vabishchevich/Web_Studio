@@ -153,6 +153,10 @@
     color: #212121;
 }
 
+.mob-menu-link.current {
+    color: var(--accent-color);
+}
+
 .mob-connect-tel {
     font-weight: 500;
     font-size: 34px;
