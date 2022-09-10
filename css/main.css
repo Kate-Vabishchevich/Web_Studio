@@ -1083,6 +1083,11 @@ body {
   background-color: transparent;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
+@media screen and (max-width: 479px) {
+  .sub-field input {
+    margin-top: 20px;
+  }
+}
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .sub-field input {
     width: 450px;
